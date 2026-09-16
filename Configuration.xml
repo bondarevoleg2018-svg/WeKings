@@ -97,6 +97,12 @@
 			<Enum>СтатусыАкта</Enum>
 			<Constant>УправленческаяВалюта</Constant>
 			<Catalog>Валюты</Catalog>
+			<Catalog>ВебМастера</Catalog>
+			<Catalog>КаналыТрафика</Catalog>
+			<Catalog>Клиенты</Catalog>
+			<Catalog>Офферы</Catalog>
+			<Catalog>РекламныеКампании</Catalog>
+			<Catalog>Страны</Catalog>
 			<Language>Русский</Language>
 		</ChildObjects>
 	</Configuration>
