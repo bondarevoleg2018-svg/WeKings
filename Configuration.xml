@@ -103,9 +103,12 @@
 			<Catalog>Офферы</Catalog>
 			<Catalog>РекламныеКампании</Catalog>
 			<Catalog>Страны</Catalog>
+			<Document>АктКлиенту</Document>
 			<Document>ЗагрузкаЛидов</Document>
+			<Document>ОплатаОтКлиента</Document>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>УсловияВебМастеров</InformationRegister>
+			<AccumulationRegister>ВзаиморасчётыСКлиентами</AccumulationRegister>
 			<AccumulationRegister>Конверсии</AccumulationRegister>
 			<Language>Русский</Language>
 		</ChildObjects>
