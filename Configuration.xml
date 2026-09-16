@@ -104,12 +104,16 @@
 			<Catalog>РекламныеКампании</Catalog>
 			<Catalog>Страны</Catalog>
 			<Document>АктКлиенту</Document>
+			<Document>ВыплатаВебМастеру</Document>
 			<Document>ЗагрузкаЛидов</Document>
+			<Document>НачислениеВебМастерам</Document>
 			<Document>ОплатаОтКлиента</Document>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>УсловияВебМастеров</InformationRegister>
+			<AccumulationRegister>ВзаиморасчётыСВебМастерами</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчётыСКлиентами</AccumulationRegister>
 			<AccumulationRegister>Конверсии</AccumulationRegister>
+			<AccumulationRegister>НачисленияВебМастерам</AccumulationRegister>
 			<Language>Русский</Language>
 		</ChildObjects>
 	</Configuration>
