@@ -1,0 +1,4 @@
+@echo off
+chcp 65001 >nul
+"C:\Program Files (x86)\1cv8t\8.3.27.1508\bin\1cv8t.exe" ENTERPRISE /F"C:\Bases\InfoBase2" /DisableStartupDialogs /DisableStartupMessages /Execute "C:\Bases\test.epf" /Out "C:\Users\User\Documents\1c\WeKings\utils\run_test_log2.txt"
+echo EXITCODE=%ERRORLEVEL%
