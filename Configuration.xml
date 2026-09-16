@@ -103,8 +103,10 @@
 			<Catalog>Офферы</Catalog>
 			<Catalog>РекламныеКампании</Catalog>
 			<Catalog>Страны</Catalog>
+			<Document>ЗагрузкаЛидов</Document>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>УсловияВебМастеров</InformationRegister>
+			<AccumulationRegister>Конверсии</AccumulationRegister>
 			<Language>Русский</Language>
 		</ChildObjects>
 	</Configuration>
