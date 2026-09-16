@@ -92,6 +92,16 @@
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
+			<Language>Русский</Language>
+			<Subsystem>НСИ</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Трафик</Subsystem>
+			<Subsystem>ВебМастера</Subsystem>
+			<Subsystem>Отчёты</Subsystem>
+			<Role>Медиабаер</Role>
+			<Role>AffiliateМенеджер</Role>
+			<Role>Бухгалтер</Role>
+			<Role>Руководитель</Role>
 			<Enum>МоделиРасчёта</Enum>
 			<Enum>ТипыКонверсий</Enum>
 			<Enum>СтатусыАкта</Enum>
@@ -109,6 +119,11 @@
 			<Document>НачислениеВебМастерам</Document>
 			<Document>ОплатаОтКлиента</Document>
 			<Document>РасходНаРекламу</Document>
+			<Report>КонверсииПоКампаниям</Report>
+			<Report>ВзаиморасчётыСКлиентами</Report>
+			<Report>РасчётыСВебМастерами</Report>
+			<Report>ВыручкаПоМоделямРасчёта</Report>
+			<Report>ROIПоКампаниям</Report>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>УсловияВебМастеров</InformationRegister>
 			<AccumulationRegister>ВзаиморасчётыСВебМастерами</AccumulationRegister>
@@ -116,7 +131,6 @@
 			<AccumulationRegister>Конверсии</AccumulationRegister>
 			<AccumulationRegister>НачисленияВебМастерам</AccumulationRegister>
 			<AccumulationRegister>РекламныеРасходы</AccumulationRegister>
-			<Language>Русский</Language>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
