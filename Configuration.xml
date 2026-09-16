@@ -108,12 +108,14 @@
 			<Document>ЗагрузкаЛидов</Document>
 			<Document>НачислениеВебМастерам</Document>
 			<Document>ОплатаОтКлиента</Document>
+			<Document>РасходНаРекламу</Document>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>УсловияВебМастеров</InformationRegister>
 			<AccumulationRegister>ВзаиморасчётыСВебМастерами</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчётыСКлиентами</AccumulationRegister>
 			<AccumulationRegister>Конверсии</AccumulationRegister>
 			<AccumulationRegister>НачисленияВебМастерам</AccumulationRegister>
+			<AccumulationRegister>РекламныеРасходы</AccumulationRegister>
 			<Language>Русский</Language>
 		</ChildObjects>
 	</Configuration>

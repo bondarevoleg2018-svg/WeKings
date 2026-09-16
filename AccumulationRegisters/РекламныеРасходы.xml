@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="7e100019-0000-4000-8000-000000000001">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.РекламныеРасходы" category="Record">
+				<xr:TypeId>7e100019-0000-4000-8000-000000000002</xr:TypeId>
+				<xr:ValueId>7e100019-0000-4000-8000-000000000003</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.РекламныеРасходы" category="Manager">
+				<xr:TypeId>7e100019-0000-4000-8000-000000000004</xr:TypeId>
+				<xr:ValueId>7e100019-0000-4000-8000-000000000005</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.РекламныеРасходы" category="Selection">
+				<xr:TypeId>7e100019-0000-4000-8000-000000000006</xr:TypeId>
+				<xr:ValueId>7e100019-0000-4000-8000-000000000007</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.РекламныеРасходы" category="List">
+				<xr:TypeId>7e100019-0000-4000-8000-000000000008</xr:TypeId>
+				<xr:ValueId>7e100019-0000-4000-8000-000000000009</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РекламныеРасходы" category="RecordSet">
+				<xr:TypeId>7e100019-0000-4000-8000-00000000000a</xr:TypeId>
+				<xr:ValueId>7e100019-0000-4000-8000-00000000000b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РекламныеРасходы" category="RecordKey">
+				<xr:TypeId>7e100019-0000-4000-8000-00000000000c</xr:TypeId>
+				<xr:ValueId>7e100019-0000-4000-8000-00000000000d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РекламныеРасходы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рекламные расходы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisterType>Turnovers</RegisterType>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<DataLockControlMode>Managed</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="7e100019-0000-4000-8000-000000000020">
+				<Properties>
+					<Name>Кампания</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кампания</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РекламныеКампании</v8:Type>
+					</Type>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7e100019-0000-4000-8000-000000000021">
+				<Properties>
+					<Name>Канал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Канал</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КаналыТрафика</v8:Type>
+					</Type>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Dimension>
+			<Resource uuid="7e100019-0000-4000-8000-000000000022">
+				<Properties>
+					<Name>СуммаУпр</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма упр</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
