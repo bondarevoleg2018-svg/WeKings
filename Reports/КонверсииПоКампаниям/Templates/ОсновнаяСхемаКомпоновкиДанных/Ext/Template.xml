@@ -66,6 +66,16 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДепозитовУпр</dataPath>
+			<field>СуммаДепозитовУпр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма депозитов, USD</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	КонверсииОбороты.Кампания КАК Кампания,
@@ -73,7 +83,8 @@
 	КонверсииОбороты.Кампания.Страна КАК Страна,
 	КонверсииОбороты.ЛидыОборот КАК Лиды,
 	КонверсииОбороты.ДепозитыОборот КАК Депозиты,
-	КонверсииОбороты.СуммаДепозитовОборот КАК СуммаДепозитов
+	КонверсииОбороты.СуммаДепозитовОборот КАК СуммаДепозитов,
+	КонверсииОбороты.СуммаДепозитовУпрОборот КАК СуммаДепозитовУпр
 ИЗ
 	РегистрНакопления.Конверсии.Обороты(&amp;НачалоПериода, &amp;ОкончаниеПериода, Регистратор, ) КАК КонверсииОбороты</query>
 	</dataSet>
@@ -86,8 +97,8 @@
 		<expression>Сумма(Депозиты)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>СуммаДепозитов</dataPath>
-		<expression>Сумма(СуммаДепозитов)</expression>
+		<dataPath>СуммаДепозитовУпр</dataPath>
+		<expression>Сумма(СуммаДепозитовУпр)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -162,7 +173,7 @@
 					<dcsset:field>Депозиты</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаДепозитов</dcsset:field>
+					<dcsset:field>СуммаДепозитовУпр</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
