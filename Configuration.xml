@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>WeKings</v8:content>
+					<v8:content>WeKings — учёт performance-агентства</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -79,7 +79,12 @@
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
-			<Copyright/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>WeKings, 2026</v8:content>
+				</v8:item>
+			</Copyright>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>

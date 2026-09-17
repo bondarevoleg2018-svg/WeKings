@@ -17,6 +17,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РекламныеКампании</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗагрузкаЛидов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходНаРекламу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Конверсии</xr:Item>
 			</Content>

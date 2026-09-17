@@ -18,7 +18,6 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Клиенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Офферы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗагрузкаЛидов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.АктКлиенту</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаОтКлиента</xr:Item>
 			</Content>
