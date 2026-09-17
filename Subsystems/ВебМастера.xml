@@ -14,7 +14,10 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>StdPicture.User</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВебМастера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УсловияВебМастеров</xr:Item>
