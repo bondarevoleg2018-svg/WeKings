@@ -52,6 +52,7 @@
 			<UnpostInPrivilegedMode>false</UnpostInPrivilegedMode>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataLockControlMode>Managed</DataLockControlMode>
+			<DefaultObjectForm>Document.АктКлиенту.Form.ФормаДокумента</DefaultObjectForm>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="7e100013-0000-4000-8000-000000000020">
@@ -305,12 +306,6 @@
 					</Synonym>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:TypeDescription>
-							<v8:Type>cfg:DocumentRef.АктКлиенту</v8:Type>
-						</v8:TypeDescription>
-					</CommandParameterType>
-					<ParameterUseMode>Single</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>
 					<Representation>Auto</Representation>
 					<ToolTip/>
@@ -318,6 +313,7 @@
 					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
+			<Form>ФормаДокумента</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
