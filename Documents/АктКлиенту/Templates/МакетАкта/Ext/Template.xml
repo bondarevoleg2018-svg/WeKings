@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
@@ -14,31 +14,31 @@
 		<columnsItem>
 			<index>0</index>
 			<column>
-				<formatIndex>1</formatIndex>
+				<formatIndex>0</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>2</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>11</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>3</index>
 			<column>
-				<formatIndex>3</formatIndex>
+				<formatIndex>12</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>4</index>
 			<column>
-				<formatIndex>3</formatIndex>
+				<formatIndex>13</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -197,9 +197,8 @@
 		<index>6</index>
 		<row>
 			<c>
-				<i>3</i>
 				<c>
-					<f>10</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -210,7 +209,25 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>9</f>
+					<parameter>ЛидыИтого</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>ДепозитыИтого</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>СуммаДепозитовИтого</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
 					<parameter>СуммаИтого</parameter>
 				</c>
 			</c>
@@ -245,22 +262,22 @@
 	<merge>
 		<r>0</r>
 		<c>0</c>
-		<w>4</w>
+		<w>5</w>
 	</merge>
 	<merge>
 		<r>1</r>
 		<c>0</c>
-		<w>4</w>
+		<w>5</w>
 	</merge>
 	<merge>
 		<r>2</r>
 		<c>0</c>
-		<w>4</w>
+		<w>5</w>
 	</merge>
 	<merge>
 		<r>8</r>
 		<c>0</c>
-		<w>4</w>
+		<w>5</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
@@ -277,6 +294,16 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>6</beginRow>
+			<endRow>6</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>7</beginRow>
 			<endRow>8</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
@@ -308,7 +335,7 @@
 	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>35</width>
+		<width>33</width>
 	</format>
 	<format>
 		<width>10</width>
@@ -371,5 +398,14 @@
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
+	</format>
+	<format>
+		<width>12</width>
+	</format>
+	<format>
+		<width>18</width>
+	</format>
+	<format>
+		<width>15</width>
 	</format>
 </document>
