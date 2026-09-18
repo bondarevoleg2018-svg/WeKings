@@ -197,6 +197,24 @@
 					<dcsset:userSettingID>7e10000f-0000-4000-8000-000000000051</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item xsi:type="dcsset:ConditionalAppearanceItem">
+					<dcsset:use>true</dcsset:use>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:ConditionalAppearanceFieldItem">
+							<dcsset:field>ROI</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>true</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="xs:string">ЧДЦ=2; ЧН=0,00</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
