@@ -45,7 +45,6 @@
 	<rowsItem>
 		<index>0</index>
 		<row>
-			<formatIndex>4</formatIndex>
 			<c>
 				<c>
 					<f>5</f>
@@ -352,6 +351,8 @@
 		<fillType>Template</fillType>
 	</format>
 	<format>
+		<font>1</font>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<fillType>Template</fillType>
 	</format>
 	<format>
