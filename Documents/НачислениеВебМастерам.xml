@@ -53,6 +53,7 @@
 			<UnpostInPrivilegedMode>false</UnpostInPrivilegedMode>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataLockControlMode>Managed</DataLockControlMode>
+			<DefaultObjectForm>Document.НачислениеВебМастерам.Form.ФормаДокумента</DefaultObjectForm>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="7e100017-0000-4000-8000-000000000020">
@@ -299,31 +300,8 @@
 					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
-			<Command uuid="7e100017-0000-4000-8000-000000000031">
-				<Properties>
-					<Name>ПечатьНачисления</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Печать начисления</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:TypeDescription>
-							<v8:Type>cfg:DocumentRef.НачислениеВебМастерам</v8:Type>
-						</v8:TypeDescription>
-					</CommandParameterType>
-					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
 			<Template>МакетНачисления</Template>
+			<Form>ФормаДокумента</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
