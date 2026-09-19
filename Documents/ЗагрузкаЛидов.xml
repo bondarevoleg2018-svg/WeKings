@@ -52,6 +52,7 @@
 			<UnpostInPrivilegedMode>false</UnpostInPrivilegedMode>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataLockControlMode>Managed</DataLockControlMode>
+			<DefaultObjectForm>Document.ЗагрузкаЛидов.Form.ФормаДокумента</DefaultObjectForm>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="7e100011-0000-4000-8000-000000000020">
@@ -178,6 +179,8 @@
 					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
+			<Template>МакетЗагрузки</Template>
+			<Form>ФормаДокумента</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
