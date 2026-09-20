@@ -246,26 +246,31 @@
 		<r>0</r>
 		<c>0</c>
 		<w>7</w>
+		<h>1</h>
 	</merge>
 	<merge>
 		<r>1</r>
 		<c>0</c>
 		<w>7</w>
+		<h>1</h>
 	</merge>
 	<merge>
 		<r>2</r>
 		<c>0</c>
 		<w>7</w>
+		<h>1</h>
 	</merge>
 	<merge>
 		<r>6</r>
 		<c>0</c>
 		<w>7</w>
+		<h>1</h>
 	</merge>
 	<merge>
 		<r>8</r>
 		<c>0</c>
 		<w>7</w>
+		<h>1</h>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
@@ -336,12 +341,12 @@
 	</format>
 	<format>
 		<font>1</font>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Template</fillType>
 	</format>
 	<format>
 		<font>1</font>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Template</fillType>
 	</format>
 	<format>
