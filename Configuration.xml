@@ -110,7 +110,8 @@
 			<Enum>МоделиРасчёта</Enum>
 			<Enum>ТипыКонверсий</Enum>
 			<Enum>СтатусыАкта</Enum>
-			<Constant>УправленческаяВалюта</Constant>
+			<CommonModule>РаботаСВалютами</CommonModule>
+		<Constant>УправленческаяВалюта</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВебМастера</Catalog>
 			<Catalog>КаналыТрафика</Catalog>
