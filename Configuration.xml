@@ -111,6 +111,7 @@
 			<Enum>ТипыКонверсий</Enum>
 			<Enum>СтатусыАкта</Enum>
 			<CommonModule>РаботаСВалютами</CommonModule>
+		<CommonModule>ПодпискиНаСобытия</CommonModule>
 		<Constant>УправленческаяВалюта</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВебМастера</Catalog>
@@ -137,6 +138,7 @@
 			<AccumulationRegister>Конверсии</AccumulationRegister>
 			<AccumulationRegister>НачисленияВебМастерам</AccumulationRegister>
 			<AccumulationRegister>РекламныеРасходы</AccumulationRegister>
+			<EventSubscription>ОбновлениеСтатусаАктаПриЗаписиОплаты</EventSubscription>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
