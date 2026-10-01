@@ -139,6 +139,7 @@
 			<AccumulationRegister>НачисленияВебМастерам</AccumulationRegister>
 			<AccumulationRegister>РекламныеРасходы</AccumulationRegister>
 			<EventSubscription>ОбновлениеСтатусаАктаПриЗаписиОплаты</EventSubscription>
+			<ScheduledJob>АктуализацияКурсовВалют</ScheduledJob>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
